@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/* #dcdcd3 */
+/* #a0bbc0 */
+/* #7197a9 */
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(https://images.unsplash.com/photo-1526786220381-1d21eedf92bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+    border: none;
+    width: 300px;
+    background: #69889F;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 1.1rem;
+    outline: none;
+    
+}
+
+.search::placeholder {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.form {
+    position: relative;
+}
+
+.search-btn {
+    /* background: #40606F; */
+    padding: 0.7rem;
+    border-radius: 50%;
+    color: #E6E4A9;
+    cursor: pointer;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.time {
+    margin: 0;
+}
+
+.main {
+    background: #69889F;
+    width: 550px;
+    height: 600px;
+    border-radius: 5px;
+    opacity: 0.8;
+    padding: 1rem 0; 
+}
+
+.main .card-head {
+    background: #40606F;
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
+}
+
+.main .card-head .city {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.main .card-body {
+    margin: 1rem;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    height: 8rem;
+}
+
+.main .card-body .temp {
+    font-weight: bold;
+    font-size: 5rem;
+    color: #E6E4A9;
+    margin: 1rem;
+}
+
+.main .card-body .temp-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.main .card-body .temp-icons i {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #64C8E4;
+}
+
+.temp-icons p {
+    margin-bottom: 0;
+}
+
+
+.humidity, .rain, .wind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 6.5rem;
+    text-align: center;
+    background: #40606F;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #E6E4A9;
+    margin: 1rem 0.5rem;
+}
+
+.forecast {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.forecast .day-card {
+    margin-top: 1.5rem;
+    background: #40606F;
+    padding: 0 1rem;
+    border-radius: 3px;
+    width: 5rem;
+    height: 7.5rem;
+}
+
+.forecast .day-card .day-title {
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    color: #E6E4A9;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.forecast .day-card .day-temp {
+    color: #E6E4A9;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+}
+
+
+
+
